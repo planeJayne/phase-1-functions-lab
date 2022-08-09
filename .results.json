@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-08-09T02:48:36.847Z",
+    "end": "2022-08-09T02:48:37.841Z",
+    "duration": 994
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 1",
+        "showDiff": true,
+        "expected": 1,
+        "stack": "AssertionError: expected undefined to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": []
+}
